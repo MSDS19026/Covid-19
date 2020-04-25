@@ -16,3 +16,28 @@ Dataset Details:
 This dataset contains X-Ray images from 2 classes:
 Class: Infected & Normal
 In total there are 12000 Training, 1500 Validation and 1500 Testing samples.
+Two Models are used with pytorch VGG16 & resnet18
+
+# VGG16
+With pretrained model Testing results are:
+
+True Normal: 877
+True Infected: 571
+False Normal: 44
+False Infected: 8
+Precision: 0.9522258414766558
+Recall: 0.9909604519774011
+F1 Score: 0.9712070874861573
+Accuracy of the network on the images: 96 % 
+
+# resnet18
+With pretrained model Testing results are:
+True Normal: 873
+True Infected: 592
+False Normal: 23
+False Infected: 12
+Precision: 0.9743303571428571
+Recall: 0.9864406779661017
+F1 Score: 0.9803481190342505
+Accuracy of the network on the images: 97 %
+
