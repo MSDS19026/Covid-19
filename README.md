@@ -42,3 +42,7 @@ Recall: 0.9864406779661017
 F1 Score: 0.9803481190342505
 Accuracy of the network on the images: 97 %
 
+
+
+## Report
+Details of the project are in Report.pdf.
