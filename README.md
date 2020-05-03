@@ -43,18 +43,26 @@ https://drive.google.com/file/d/1eytbwaLQBv12psV8I-aMkIli9N3bf8nO/view
 F1 Score:95.97%  
   
 ![](vgg16_valid.png)  
-
+  
+Weights: https://drive.google.com/open?id=1NaThdsT3DGmzj7aKcJV6l922lfn7XmYb  
+  
 ### VGG-16 With Focal Loss:  
 F1 Score:  95.85%  
   
 ![](vgg16_validation_f_loss.png)  
   
+Weights: https://drive.google.com/open?id=1cs69MZxKkUDnr4QRN3kLY8IScoKBJOo0  
+  
 ### Resnet-18
 F1 Socre: 95.3%  
   
 ![](res_valid.png)  
-
+  
+Weights: https://drive.google.com/file/d/1-2k9MPCdzcLhpsECiRMTKFugWSGp51gf/view?usp=sharing  
+  
 ### Resnet-18 With Focal Loss:  
 F1 Score: 90.9%  
   
 ![](res_valid_f_loss.png)  
+  
+Weights: https://drive.google.com/file/d/1-6RNfqVIulX1PQRfFKmqvNOJxEP7L1J8/view?usp=sharing  
