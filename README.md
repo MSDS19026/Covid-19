@@ -14,19 +14,19 @@ New studies [1] have revealed that the damage done to lungs by infections belong
   
 ## Without Focal Loss:  
   
-## Dataset Details:  
+### Dataset:  
 This dataset contains X-Ray images from 2 classes:  
 Class: Infected & Normal  
 In total there are 12000 Training, 1500 Validation and 1500 Testing samples.  
 Two Models are used with pytorch VGG16 & resnet18  
 The link for datset is as follows:  
 https://drive.google.com/file/d/1-HQQciKYfwAO3oH7ci6zhg45DduvkpnK/view  
-## VGG16  
+### VGG16  
 With pretrained model Testing results are:  
 F1 Score: 0.97  
 Accuracy of the network on the images: 96 %  
   
-## resnet18  
+### Resnet18  
 With pretrained model Testing results are:  
 F1 Score: 0.98  
 Accuracy of the network on the images: 97 %  
@@ -34,8 +34,23 @@ Accuracy of the network on the images: 97 %
   
 ## With Focal Loss:  
   
-## Dataset:
+### Dataset:
 It is a multilabel two class problem. There are 6200 labeled training and 628 validation samples however 629 unlabelled samples.  
 Link for dataset is:  
 https://drive.google.com/file/d/1eytbwaLQBv12psV8I-aMkIli9N3bf8nO/view  
 
+### VGG-16
+  
+![](vgg16_valid.png)  
+
+### VGG-16 With Focal Loss:  
+  
+![](vgg16_validation_f_loss.png)  
+  
+### Resnet-18
+  
+![](res_valid.png)  
+
+### Resnet-18 With Focal Loss:  
+  
+![](res_valid_f_loss.png)  
